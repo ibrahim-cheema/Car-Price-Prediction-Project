@@ -1,40 +1,36 @@
-Car Price Prediction
+# Car Price Prediction
 
-Overview
+## Overview
 
-This project implements multiple machine learning models to predict car selling prices based on various features such as fuel type, seller type, and transmission type. The dataset used for training and testing is car_data.csv.
+This project implements multiple machine learning models to predict car selling prices based on various features such as fuel type, seller type, and transmission type. The dataset used for training and testing is `car_data.csv`.
 
-Features Used
+## Features Used
 
 The following features are used as input for the models:
 
-Fuel Type (Categorical, Encoded)
+- **Fuel Type** (Categorical, Encoded)
+- **Seller Type** (Categorical, Encoded)
+- **Transmission** (Categorical, Encoded)
+- **Other numerical attributes**
 
-Seller Type (Categorical, Encoded)
+## Machine Learning Models Used
 
-Transmission (Categorical, Encoded)
+- **Linear Regression**
+- **Lasso Regression**
+- **Random Forest Regressor**
 
-Other numerical attributes
-
-Machine Learning Models Used
-
-Linear Regression
-
-Lasso Regression
-
-Random Forest Regressor
-
-Installation
+## Installation
 
 Ensure you have Python and the required libraries installed before running the project.
 
-Required Libraries
+### Required Libraries
 
 Install the required libraries using:
 
+
 pip install pandas matplotlib seaborn scikit-learn
 
-Dataset
+Dataset:
 
 The dataset (car_data.csv) should be placed in the root directory of the project. It contains various attributes of cars along with their selling price.
 
@@ -68,10 +64,11 @@ python car_price_prediction.py
 
 Make sure the dataset file is present in the directory.
 
-Results
+Results:
 
 The models predict the selling price of cars.
 
 Scatter plots are generated to compare actual vs. predicted prices for both training and testing data.
 
 R-squared error is calculated to measure performance.
+
