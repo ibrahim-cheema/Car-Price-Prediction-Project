@@ -49,9 +49,5 @@ Ensure the dataset file is present in the same directory.
 - Scatter plots show actual vs. predicted prices.
 - R-squared error score is used for performance evaluation.
 
-## 🤝 Contributions
-Feel free to fork this repository and submit pull requests for improvements!
 
-## 📜 License
-This project is open-source and available under the **MIT License**.
 
